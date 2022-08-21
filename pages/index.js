@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <div className="section">
           <h1 className="section-title">Demo Lectures</h1>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-center max-w-[75%] lg:max-w-[85%] mx-auto mt-8">
             <div className="flex justify-center items-center">
               <video
                 className="w-full"
@@ -102,6 +102,15 @@ export default function Home() {
               <video
                 className="w-full"
                 src="/demo3.mp4"
+                controls
+                width={300}
+                loading="lazy "
+              ></video>
+            </div>
+            <div className="flex justify-center items-center">
+              <video
+                className="w-full"
+                src="/demo4.mp4"
                 controls
                 width={300}
                 loading="lazy "
