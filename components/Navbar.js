@@ -79,54 +79,64 @@ const Navbar = () => {
           >
             <FaTimesCircle className="mr-2" /> Close Navbar
           </li>
-          <Link href="/">
-            <a className={router.pathname === "/" ? "active" : ""}>
-              <li
-                className="sidenav-item"
-                onClick={() => {
-                  setSidenav(false);
-                }}
+          <li
+            className="sidenav-item"
+            onClick={() => {
+              setSidenav(false);
+            }}
+          >
+            <Link href="/">
+              <a
+                className={`sidenav-link ${
+                  router.pathname === "/" ? "active" : ""
+                }`}
               >
                 Home
-              </li>
-            </a>
-          </Link>
-          <Link href="/about">
-            <a className={router.pathname === "/about" ? "active" : ""}>
-              <li
-                className="sidenav-item"
-                onClick={() => {
-                  setSidenav(false);
-                }}
+              </a>
+            </Link>
+          </li>
+          <li
+            className="sidenav-item"
+            onClick={() => {
+              setSidenav(false);
+            }}
+          >
+            <Link href="/about">
+              <a
+                className={`sidenav-link ${
+                  router.pathname === "/about" ? "active" : ""
+                }`}
               >
                 About us
-              </li>
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a className={router.pathname === "/contact" ? "active" : ""}>
-              <li
-                className="sidenav-item"
-                onClick={() => {
-                  setSidenav(false);
-                }}
+              </a>
+            </Link>
+          </li>
+          <li
+            className="sidenav-item"
+            onClick={() => {
+              setSidenav(false);
+            }}
+          >
+            <Link href="/contact">
+              <a
+                className={`sidenav-link ${
+                  router.pathname === "/contact" ? "active" : ""
+                }`}
               >
                 Contact us
-              </li>
-            </a>
-          </Link>
-          <Link href="https://paceinstitute.co.in">
-            <a>
-              <li
-                className="sidenav-item"
-                onClick={() => {
-                  setSidenav(false);
-                }}
-              >
-                Pace English
-              </li>
-            </a>
-          </Link>
+              </a>
+            </Link>
+          </li>
+          <li
+            className="sidenav-item"
+            onClick={() => {
+              setSidenav(false);
+            }}
+          >
+            <Link href="https://paceinstitute.co.in">
+              <a className="sidenav-link">Pace English</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div

@@ -25,7 +25,10 @@
     @apply inline-block py-3 px-6 rounded-full transition-all duration-200 transform hover:scale-75 hover:-rotate-6;
   }
   .sidenav-item {
-    @apply p-4 border-b-[1px] border-black/10 transition-all hover:bg-gray-100 font-playfairDisplay;
+    @apply border-b-[1px] border-black/10 transition-all hover:bg-gray-100 font-playfairDisplay;
+  }
+  .sidenav-link {
+    @apply block h-full w-full cursor-pointer p-4;
   }
   .list-item {
     @apply ml-8 hover:text-green font-playfairDisplay;
