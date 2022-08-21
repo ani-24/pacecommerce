@@ -51,11 +51,11 @@ const sections = [
     ],
   },
   {
-    title: "Objectives of Commerce Education",
+    title: "Objectives of Commerce",
     text: [
       `The objectives of Commerce education in India include:`,
-      `→  Finding out challenges in the commerce education sector`,
-      `→  Fighting challenges in commerce education by promoting its importance in business and finance`,
+      `1. Finding out challenges in the commerce education sector`,
+      `2. Fighting challenges in commerce education by promoting its importance in business and finance`,
     ],
   },
 ];
