@@ -26,13 +26,13 @@ export default function Home() {
             PACE Commerce is a wing of PACE Institute Pvt. Ltd. A dedicated
             institution to provide global quality education to the students of
             Commerce for class 11 & 12, CBSE or Bihar board. The chief mentor
-            for commerce stream is Madhulika ma'am who has a strong command over
-            the subjects and students will definitely fetch high grades under
-            her guidance. Students attending classes regularly and sincerely
-            will get an assurance of satisfactory performance. All the three
-            important subjects of commerce stream i.e. accounts, economics and
-            business studies is taught precisely from the basic beginners level
-            keeping in mind the theory and practical part of all these 3
+            for commerce stream is Madhulika ma&apos;am who has a strong command
+            over the subjects and students will definitely fetch high grades
+            under her guidance. Students attending classes regularly and
+            sincerely will get an assurance of satisfactory performance. All the
+            three important subjects of commerce stream i.e. accounts, economics
+            and business studies is taught precisely from the basic beginners
+            level keeping in mind the theory and practical part of all these 3
             subjects.
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
             <div>
               <h1 className="section-title mb-8">Meet Your Mentor:</h1>
               <div className="section-text lg:text-xl lg:leading-loose">
-                Madhulika Madhu Ma'am has been a scholar. She completed her
+                Madhulika Madhu Ma&apos;am has been a scholar. She completed her
                 M.Com. degree from Delhi University. She is an expert of two
                 subjects Accounts and economics. She has been teaching students
                 both the subjects as she loves to teach and teaching is her
