@@ -72,7 +72,7 @@ const Navbar = () => {
       >
         <ul>
           <li
-            className="sidenav-item flex items-center bg-green text-white hover:bg-green cursor-pointer"
+            className="sidenav-item flex items-center bg-green text-white hover:bg-green cursor-pointer p-4"
             onClick={() => {
               setSidenav(false);
             }}
