@@ -58,13 +58,6 @@ export default function Home() {
         </div>
         <div className="section">
           <div className="gap-8 md:flex lg:gap-20 justify-items-center items-center">
-            <div className="w-full flex justify-center items-center md:justify-start">
-              <div className="relative after:absolute after:h-[90%] after:bottom-0 after:w-full after:bg-[#f0f0f0] after:left-0 after:-z-10">
-                <div className="relative h-[375px] w-[250px] md:w-[300px] md:h-[450px]">
-                  <Image src="/mentor.png" layout="fill" />
-                </div>
-              </div>
-            </div>
             <div>
               <h1 className="section-title mb-8">Meet Your Mentor:</h1>
               <div className="section-text lg:text-xl lg:leading-loose">
@@ -73,6 +66,13 @@ export default function Home() {
                 subjects Accounts and economics. She has been teaching students
                 both the subjects as she loves to teach and teaching is her
                 passion.
+              </div>
+            </div>
+            <div className="w-full flex justify-center items-center md:justify-start">
+              <div className="relative after:absolute after:h-[90%] after:bottom-0 after:w-full after:bg-[#f0f0f0] after:left-0 after:-z-10">
+                <div className="relative h-[375px] w-[250px] md:w-[300px] md:h-[450px]">
+                  <Image src="/mentor.png" layout="fill" />
+                </div>
               </div>
             </div>
           </div>
