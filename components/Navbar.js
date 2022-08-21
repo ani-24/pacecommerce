@@ -22,6 +22,7 @@ const Navbar = () => {
                 width={150}
                 alt="Logo"
                 className="cursor-pointer"
+                priority={true}
               />
             </Link>
             <div

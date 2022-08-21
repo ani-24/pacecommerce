@@ -11,6 +11,10 @@ export default function Home() {
           name="description"
           content="PACE Commerce is a wing of PACE Institute Pvt. Ltd. A dedicated institution to provide global quality education to the students of Commerce for class 11 & 12, CBSE or Bihar board. The chief mentor for commerce stream is Madhulika ma'am who has a strong command over the subjects and students will definitely fetch high grades under her guidance. Students attending classes regularly and sincerely will get an assurance of satisfactory performance. All the three important subjects of commerce stream i.e. accounts, economics and business studies is taught precisely from the basic beginners level keeping in mind the theory and practical part of all these 3 subjects."
         />
+        <meta
+          name="keywords"
+          content="Commerce classes for class XI,Commerce classes for class 11, tutorials for COMMERCE class 11, Accounts for class 11, commerce coaching near me,commerce tutorials,top commerce classes, Commerce classes for class XII,Commerce classes for class 12,tutorials for COMMERCE class 12,Accounts for class 12,top commerce classes, commerce classes in Kankarbagh, commerce classes in Patna,commerce class,commerce for inter,commerce for CBSE 12,commerce for CBSE 11,Best commerce classes,best commerce classes"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="h-[40vh] w-full bg-gradient-to-br from-green to-blue text-white font-montserrat">

@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { FaPaperPlane } from "react-icons/fa";
 
 import emailjs from "emailjs-com";
@@ -32,6 +34,13 @@ const contact = () => {
   };
   return (
     <>
+      <Head>
+        <title>PACE Commerce - Contact us</title>
+        <meta
+          name="keywords"
+          content="Commerce classes for class XI,Commerce classes for class 11, tutorials for COMMERCE class 11, Accounts for class 11, commerce coaching near me,commerce tutorials,top commerce classes, Commerce classes for class XII,Commerce classes for class 12,tutorials for COMMERCE class 12,Accounts for class 12,top commerce classes, commerce classes in Kankarbagh, commerce classes in Patna,commerce class,commerce for inter,commerce for CBSE 12,commerce for CBSE 11,Best commerce classes,best commerce classes"
+        />
+      </Head>
       <Toaster />
       <div className="container">
         <h1 className="section-title">Got some questions?</h1>

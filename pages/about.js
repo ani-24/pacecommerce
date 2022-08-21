@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 const sections = [
   {
     title: "Why choose PACE?",
@@ -62,7 +64,14 @@ const sections = [
 
 const about = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>PACE Commerce - About us</title>
+        <meta
+          name="keywords"
+          content="Commerce classes for class XI,Commerce classes for class 11, tutorials for COMMERCE class 11, Accounts for class 11, commerce coaching near me,commerce tutorials,top commerce classes, Commerce classes for class XII,Commerce classes for class 12,tutorials for COMMERCE class 12,Accounts for class 12,top commerce classes, commerce classes in Kankarbagh, commerce classes in Patna,commerce class,commerce for inter,commerce for CBSE 12,commerce for CBSE 11,Best commerce classes,best commerce classes"
+        />
+      </Head>
       <div className="container">
         {sections.map((data, index) => (
           <div className="section" key={index}>
@@ -75,7 +84,7 @@ const about = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
