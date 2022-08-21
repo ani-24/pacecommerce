@@ -65,10 +65,12 @@ const about = () => {
     <div>
       <div className="container">
         {sections.map((data, index) => (
-          <div className="section">
+          <div className="section" key={index}>
             <h1 className="section-title">{data.title}</h1>
-            {data.text.map((text) => (
-              <div className="section-text">{text}</div>
+            {data.text.map((text, idx) => (
+              <div className="section-text" key={idx}>
+                {text}
+              </div>
             ))}
           </div>
         ))}
