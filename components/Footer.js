@@ -46,7 +46,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="https://paceinstitute.co.in">
                   <a className="inline-flex items-center">
                     <BsLink45Deg /> PACE English
                   </a>
