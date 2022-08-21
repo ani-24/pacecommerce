@@ -38,7 +38,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/contact">
                   <a className="inline-flex items-center">
                     <BsLink45Deg /> Contact us
                   </a>

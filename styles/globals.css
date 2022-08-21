@@ -36,4 +36,10 @@
   .footer-col-text {
     @apply text-white/80 mb-2;
   }
+  .form-label {
+    @apply block font-semibold font-montserrat mb-4;
+  }
+  .form-input {
+    @apply w-full p-4 border-b-2 border-green bg-gray-100 outline-none;
+  }
 }

@@ -42,7 +42,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="list-item">
-                <Link href="/">
+                <Link href="/contact">
                   <a>Contact us</a>
                 </Link>
               </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
               </li>
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/contact">
             <a>
               <li
                 className="sidenav-item"
