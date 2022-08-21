@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-br from-green to-blue py-8 text-white mt-20">
+    <div className="bg-gradient-to-br to-green from-blue py-8 text-white mt-20">
       <div className="container">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           <div className="footer-col">
@@ -18,6 +18,7 @@ const Footer = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="PACE Tower"
             ></iframe>
           </div>
           <div className="footer-col">
@@ -55,18 +56,18 @@ const Footer = () => {
           </div>
           <div className="footer-col">
             <h1 className="footer-col-title">Follow us on:</h1>
-            <div className="flex">
+            <div>
               <div>
                 <Link href="https://www.facebook.com/pace.madhu/">
-                  <a>
-                    <BsFacebook />
+                  <a className="flex items-center">
+                    <BsFacebook className="mr-2" /> <span>Facebook</span>
                   </a>
                 </Link>
               </div>
-              <div className="ml-2">
+              <div>
                 <Link href="https://instagram.com/madhu_madulika?igshid=YmMyMTA2M2Y=">
-                  <a>
-                    <AiFillInstagram />
+                  <a className="flex items-center">
+                    <AiFillInstagram className="mr-2" /> <span>Instagram</span>
                   </a>
                 </Link>
               </div>

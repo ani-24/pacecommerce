@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <Link href="/commerce">
             <a className="btn bg-gradient-to-br from-green to-blue text-white">
-              Read more
+              More on commerce
             </a>
           </Link>
         </div>
@@ -75,7 +75,11 @@ export default function Home() {
             <div className="w-full flex justify-center items-center md:justify-start">
               <div className="relative after:absolute after:h-[90%] after:bottom-0 after:w-full after:bg-[#f0f0f0] after:left-0 after:-z-10">
                 <div className="relative h-[375px] w-[250px] md:w-[300px] md:h-[450px]">
-                  <Image src="/mentor.png" layout="fill" />
+                  <Image
+                    src="/mentor.png"
+                    layout="fill"
+                    alt="Madhulika Madhu"
+                  />
                 </div>
               </div>
             </div>
