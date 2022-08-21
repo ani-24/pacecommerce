@@ -5,8 +5,11 @@ import { useState } from "react";
 import { CgMenuGridO } from "react-icons/cg";
 import { FaTimesCircle } from "react-icons/fa";
 
+import { useRouter } from "next/router";
+
 const Navbar = () => {
   const [sidenav, setSidenav] = useState(false);
+  const router = useRouter();
   return (
     <>
       <div className="sticky top-0 left-0 bg-white shadow-lg z-40">
@@ -33,17 +36,23 @@ const Navbar = () => {
             <ul className="hidden lg:flex">
               <li className="list-item">
                 <Link href="/">
-                  <a>Home</a>
+                  <a className={router.pathname === "/" ? "active" : ""}>
+                    Home
+                  </a>
                 </Link>
               </li>
               <li className="list-item">
                 <Link href="/about">
-                  <a>About us</a>
+                  <a className={router.pathname === "/about" ? "active" : ""}>
+                    About us
+                  </a>
                 </Link>
               </li>
               <li className="list-item">
                 <Link href="/contact">
-                  <a>Contact us</a>
+                  <a className={router.pathname === "/contact" ? "active" : ""}>
+                    Contact us
+                  </a>
                 </Link>
               </li>
               <li className="list-item">
@@ -70,7 +79,7 @@ const Navbar = () => {
             <FaTimesCircle className="mr-2" /> Close Navbar
           </li>
           <Link href="/">
-            <a>
+            <a className={router.pathname === "/" ? "active" : ""}>
               <li
                 className="sidenav-item"
                 onClick={() => {
@@ -82,7 +91,7 @@ const Navbar = () => {
             </a>
           </Link>
           <Link href="/about">
-            <a>
+            <a className={router.pathname === "/about" ? "active" : ""}>
               <li
                 className="sidenav-item"
                 onClick={() => {
@@ -94,7 +103,7 @@ const Navbar = () => {
             </a>
           </Link>
           <Link href="/contact">
-            <a>
+            <a className={router.pathname === "/contact" ? "active" : ""}>
               <li
                 className="sidenav-item"
                 onClick={() => {

@@ -25,10 +25,13 @@
     @apply inline-block py-3 px-6 rounded-full transition-all duration-200 transform hover:scale-75 hover:-rotate-6;
   }
   .sidenav-item {
-    @apply p-4 border-b-[1px] border-black/10 transition-all hover:bg-gray-100;
+    @apply p-4 border-b-[1px] border-black/10 transition-all hover:bg-gray-100 font-playfairDisplay;
   }
   .list-item {
-    @apply ml-8 font-semibold hover:text-green;
+    @apply ml-8 hover:text-green font-playfairDisplay;
+  }
+  .active {
+    @apply text-green;
   }
   .footer-col-title {
     @apply capitalize font-montserrat font-bold text-xl mb-2;
