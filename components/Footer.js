@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="font-playfairDisplay mt-8 text-center">
-          &copy; Copyright 2022-23 PaceCommerce
+          &copy; Copyright 2022-23 PACE Commerce
         </div>
       </div>
     </div>
