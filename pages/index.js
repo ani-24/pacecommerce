@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PACE Commerce</title>
+        <title>PACE Commerce | Commerce for class 11 & 12</title>
         <meta
           name="description"
           content="PACE Commerce is a wing of PACE Institute Pvt. Ltd. A dedicated institution to provide global quality education to the students of Commerce for class 11 & 12, CBSE or Bihar board. The chief mentor for commerce stream is Madhulika ma'am who has a strong command over the subjects and students will definitely fetch high grades under her guidance. Students attending classes regularly and sincerely will get an assurance of satisfactory performance. All the three important subjects of commerce stream i.e. accounts, economics and business studies is taught precisely from the basic beginners level keeping in mind the theory and practical part of all these 3 subjects."
