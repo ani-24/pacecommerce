@@ -42,7 +42,7 @@ export default function Home() {
             <div className="slide bg-[url('./../public/slide3.jpeg')]"></div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide bg-[url('./../public/slide4.jpeg')]"></div>
+            <div className="slide bg-[url('./../public/slide1.jpeg')] md:bg-[url('./../public/slide4.jpeg')]"></div>
           </SwiperSlide>
         </Swiper>
       </div>
