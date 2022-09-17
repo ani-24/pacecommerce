@@ -2,6 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 export default function Home() {
   return (
     <>
@@ -17,11 +26,25 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-[40vh] w-full bg-gradient-to-br from-green to-blue text-white font-montserrat">
-        <div className="container h-full flex flex-col justify-center items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-black">PACE Commerce</h1>
-          <p className=" mt-8">For classes XI and XII</p>
-        </div>
+      <div className="h-[50vh] w-full">
+        <Swiper
+          pagination={{
+            dynamicBullets: true,
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          loop={true}
+        >
+          <SwiperSlide>
+            <div className="slide bg-[url('./../public/slide2.jpeg')]"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide bg-[url('./../public/slide3.jpeg')]"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide bg-[url('./../public/slide4.jpeg')]"></div>
+          </SwiperSlide>
+        </Swiper>
       </div>
       <div className="container">
         <div className="section">

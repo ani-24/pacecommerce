@@ -14,7 +14,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.3.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-slideshow-image": "^4.0.5",
+    "swiper": "^8.4.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",

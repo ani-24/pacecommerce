@@ -48,4 +48,7 @@
   .form-input {
     @apply w-full p-4 border-b-2 border-green bg-gray-100 outline-none;
   }
+  .slide {
+    @apply h-[50vh] w-full bg-center bg-no-repeat bg-cover;
+  }
 }
