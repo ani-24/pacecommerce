@@ -51,9 +51,14 @@ export default function Home() {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              src="/slide1.jpeg"
+              alt=""
+              className="w-full h-[50vh] object-cover md:hidden"
+            />
+            <img
               src="/slide4.jpeg"
               alt=""
-              className="w-full h-[50vh] object-cover"
+              className="w-full h-[50vh] object-cover hidden md:block"
             />
           </SwiperSlide>
         </Swiper>
