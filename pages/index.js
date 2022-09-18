@@ -94,7 +94,7 @@ export default function Home() {
             number of specialised skills that help them excel in different
             functional areas of trade, industry and commerce.
           </p>
-          <Link href="/commerce">
+          <Link href="/about">
             <a className="btn bg-gradient-to-br from-green to-blue text-white">
               More on commerce
             </a>
