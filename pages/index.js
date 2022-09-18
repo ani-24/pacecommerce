@@ -36,13 +36,25 @@ export default function Home() {
           loop={true}
         >
           <SwiperSlide>
-            <div className="slide bg-[url('../public/slide2.jpeg')]"></div>
+            <img
+              src="/slide2.jpeg"
+              alt=""
+              className="w-full h-[50vh] object-cover"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide bg-[url('../public/slide3.jpeg')]"></div>
+            <img
+              src="/slide3.jpeg"
+              alt=""
+              className="w-full h-[50vh] object-cover"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide bg-[url('../public/slide1.jpeg')] md:bg-[url('../public/slide4.jpeg')]"></div>
+            <img
+              src="/slide4.jpeg"
+              alt=""
+              className="w-full h-[50vh] object-cover"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
